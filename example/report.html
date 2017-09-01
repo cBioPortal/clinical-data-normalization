@@ -1,0 +1,129 @@
+<center><font size="6">cBioPortal new study report</font></center> <br>
+Report for study: ./acyc_mda_2015/raw_data_clinical.txt</font></center><br>
+<center><font size="5">Attribute matches</font></center><br>
+  Below are the possible matches between attributes from existing data on the cBioPortal and the new study.
+  The metric used to detect each match is denoted by the symbols follwing the attribute name of the match.
+  Additionally, the number of studies in which the matching attribute occurs is given to indicate how popular the attribute is among existing studies.
+  In the second table, predictions are given as to whether an attribute is a patient or sample attribute.
+  The sample/patient prediction is based on what is most common for that particular attribute in the existing cBioPortal studies.
+<br>
+<br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>New study attribute</th>
+      <th>Possible matches</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AGE</td>
+      <td>AGE^ (found in 123 other studies)</td>
+    </tr>
+    <tr>
+      <td>FISH</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>FUSION_OTHER</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>HISTOLOGY</td>
+      <td>HISTOLOGY^ (found in 11 other studies)</td>
+    </tr>
+    <tr>
+      <td>HISTOLOGY</td>
+      <td>KATABI_PATH* (found in 1 other studies)</td>
+    </tr>
+    <tr>
+      <td>HISTOLOGY</td>
+      <td>OFFICIAL_PATH* (found in 1 other studies)</td>
+    </tr>
+    <tr>
+      <td>MYB/MYBL1-FUSION</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>MYB_MYBL1_FUSION_METHOD</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>MYB_NFIB_REARRANGEMENT</td>
+      <td>MYB_NFIB_REARRANGEMENT^ (found in 1 other stud...</td>
+    </tr>
+    <tr>
+      <td>OTHER NFIB FUSION</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>PNI</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>SEX</td>
+      <td>SEX^* (found in 36 other studies)</td>
+    </tr>
+    <tr>
+      <td>SEX</td>
+      <td>GENDER* (found in 83 other studies)</td>
+    </tr>
+    <tr>
+      <td>SITE</td>
+      <td>No matches found</td>
+    </tr>
+    <tr>
+      <td>SIZE(CM)</td>
+      <td>No matches found</td>
+    </tr>
+  </tbody>
+</table>^ represents matches found based on the attribute names<br>* represents matches found based on clustering of the attribute values<br><br>
+<br>
+<center><font size="5">Matching attribute types </font></center><br>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Matching Atrribute</th>
+      <th>Patient or Sample prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AGE</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td>HISTOLOGY</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td>KATABI_PATH</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td>OFFICIAL_PATH</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td>MYB_NFIB_REARRANGEMENT</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td>SEX</td>
+      <td>Patient</td>
+    </tr>
+    <tr>
+      <td>GENDER</td>
+      <td>Patient</td>
+    </tr>
+  </tbody>
+</table><br>
+<div class="image" style="display:table;"><img src="n_attribute_distribution.png"alt="number of attributes" width="800"><br>
+<div style="display:table-caption;caption-side:bottom;">Comparison between the number of attributes in the new study and the number of attributes in each existing study on cBioPortal.  The dashed black line indicates the number of attributes in the new study, while the histogram shows the data for existing cBioPortal studies.</div>
+</div>
+<br><div class="image" style="display:table;"><img src="n_unique_attribute_distribution.png"alt="number of unique attributes" width="800"><br>
+<div style="display:table-caption;caption-side:bottom;">Comparison between the number of unique attributes in the new study and the number of unique attributes in each existing study on cBioPortal.  The dashed black line indicates the number of unqiue attributes in the new study, while the histogram shows the data for existing cBioPortal studies.</div>
+</div>
+<br><div class="image" style="display:table;"><img src="n_common_attribute_distribution.png"alt="number of common attributes" width="800"><br>
+<div style="display:table-caption;caption-side:bottom;">Comparison between the number of common attributes in the new study and the number of common attributes in each existing study on cBioPortal.  The dashed black line indicates the number of common attributes in the new study, while the histogram shows the data for existing cBioPortal studies.</div>
+</div>

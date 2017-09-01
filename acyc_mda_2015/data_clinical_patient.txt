@@ -1,0 +1,107 @@
+#Patient Identifier	Diagnosis Age	Person Gender	Histology	MYB-NFIB Translocation	MYB or MYBL1 Fusion	Other NFIB Fusion	MYB-NFIB Rearrangement	Other Gene Fusion	MYB or MYBL1 Fusion Method
+#Identifier to uniquely specify a patient.	Age at which a condition or disease was first diagnosed.	Patient gender.	Histology	Description of translocations resulting in MYB-NFIB gene fusions.	Description of MYB or MYBL1 fusions identified.	Description of other NFIB fusions.	MYB-NFIB Rearrangement Description	Description of other gene fusions identified by RT-PCR/qPCR/WGS (non-MYB/MYBL1/NFIB).	Method used to validate MYB or MYBL1 gene fusions.
+#STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	AGE	GENDER	HISTOLOGY	MYB_NFIB_TRANSLOCATION	MYB_MYBL1_FUSION	NFIB_FUSION_OTHER	MYB_NFIB_REARRANGEMENT	FUSION_OTHER	MYB_MYBL1_FUSION_METHOD
+ACYC-MDA_AC47	43	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC46	51	Male	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC45	54	Male	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC44	50	Male	Tubular	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC43	52	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC42	28	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC41	45	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC40	72	Female	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC49	74	Male	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC48	44	Male	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC101	72	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC100	72	Female	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC102	46	Male	Solid	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC50	65	Female	Cribriform	t(6;9)	MYB-NFIB	NA	MYB Exon 11-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC51	39	Male	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 15-NFIB Exon 11	NA	Microarray, WGS
+ACYC-MDA_AC52	42	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC53	74	Female	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 11-MYB Intron 11-NFIB 3'UTR	NA	Microarray, WGS
+ACYC-MDA_AC54	56	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC55	54	Male	Solid	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC56	53	Female	Cribriform	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC57	50	Male	Cribriform	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC58	42	Male	Cribriform	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC59	36	Male	Solid	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC25	73	Female	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC24	43	Male	NA	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC27	47	Female	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 16-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC26	46	Female	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 8b-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC21	67	Male	Solid	Negative	Negative	Negative	NA	AHI1-SLC44A5	NA
+ACYC-MDA_AC20	70	Male	Cribriform	Negative	Negative	Negative	NA	KIAA1217-USP9X, KLHL6-RAD51B	NA
+ACYC-MDA_AC23	55	Male	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC22	58	Male	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC29	45	Male	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC28	56	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC36	62	Male	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC37	48	Male	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC34	71	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC35	64	Male	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 11-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC32	48	Male	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 8a-NFIB Exon 11, MYB Exon 8a-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC33	76	Male	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC30	34	Female	Solid	t(6;9)	MYB-NFIB	NA	MYB Exon 13-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC31	30	Male	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC38	44	Female	Cribriform	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC39	68	Female	Solid	t(6;9)	MYB-NFIB	NA	NA	NA	WGS
+ACYC-MDA_AC03	44	Male	Cribriform	t(6;9)	MYB-NFIB	Negative	MYB Exon 8b-NFIB Exon 11	AVPR1A-TBK1, GRIP2-BCL11A, NIPAL4-ADAM19	Microarray, WGS
+ACYC-MDA_AC02	65	Male	Cribriform/Solid	t(6;9)	MYB-NFIB	Negative	MYB Exon 9b-NFIB Exon 11, MYB Exon 9b-NFIB Exon 12	NA	Microarray, WGS
+ACYC-MDA_AC01	52	Male	Cribriform	t(6;9)	MYB-NFIB	THEMIS-NFIB	MYB Exon 13-NFIB Exon 12, MYB Exon 13-NFIB Exon 9, MYB Exon 13-NFIB Exon 9'	NA	Microarray, WGS
+ACYC-MDA_AC07	43	Male	Solid	t(6;9)	Negative	NFIB-AIG1	Negative	ENOX1-TYRO3, ETFA-ENOX1, HDAC4-MIR4440, SLC7A9-GLDC	NA
+ACYC-MDA_AC06	60	Male	Cribriform	t(6;9)	MYB-NFIB	Negative	NA	ARFGEF3-FOCAD	WGS
+ACYC-MDA_AC05	50	Male	Cribriform/Solid/Tubular	t(6;9)	MYB-NFIB	Negative	NA	ATRNL1-ACVR1B, EGLN1-KCNH1, NEDD9-VPS54, RBM47-PDE8A, SLC8A1-ALK, ZFP37-UBR4	WGS
+ACYC-MDA_AC04	51	Male	Cribriform/Solid/Tubular	t(6;9)	MYB-NFIB	Negative	NA	FSIP1-BAZ2A	WGS
+ACYC-MDA_AC09	47	Male	Solid	t(6;9)	MYB-PDCD1LG2	NFIB-XRCC4	Negative	EGFLAM-OSMR, HFM1-RYR2, SGK1-AKIRIN2, SGK1-PDCD1LG2	WGS
+ACYC-MDA_AC08	47	Male	Cribriform	t(6;9)	Negative	NFIB-NKAIN2, NFIB-PTPRD	NA	NA	NA
+ACYC-MDA_AC89	49	Male	Solid	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC88	68	Female	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC83	55	Male	Solid	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC82	37	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC81	72	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC80	52	Male	Cribriform	Negative	Negative	NA	Negative	NA	NA
+ACYC-MDA_AC87	67	Male	Cribriform/Tubular	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC86	36	Male	Cribriform/Tubular	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC85	30	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC84	27	Female	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC18	43	Female	Solid	Negative	Negative	Negative	Negative	NA	NA
+ACYC-MDA_AC19	45	Female	Solid	Negative	Negative	Negative	NA	CLPTM1-PPP1R37, VPS13C-MYO5A	NA
+ACYC-MDA_AC14	57	Male	Cribriform	Negative	MYBL1-YTHDF3	Negative	MYBL1 Exon 9-YTHDF3 Exon 4	PREX2-C8orf34, YTHDF3-CYP7B1	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC15	62	Male	Cribriform	Negative	MYBL1-YTHDF3	Negative	MYBL1 Exon 8-YTHDF3 Exon 4	ENOX1-TYRO3, LRP11-MT-CO3, YTHDF3-ZFP36L1, ZFP37-UBR4	FISH, RT-PCR, Sanger, qPCR
+ACYC-MDA_AC16	48	Male	Cribriform	Negative	Negative	Negative	NA	DAAM1-RAD51B, FSIP1-BAZ2A, NUBPL-RAD51B	NA
+ACYC-MDA_AC17	41	Female	Solid	Negative	Negative	Negative	Negative	NADSYN1-CHRDL2, RNF169-XRRA1	NA
+ACYC-MDA_AC10	53	Female	Cribriform	t(8;9)	MYBL1-NFIB	Negative	MYBL1 Exon 8-NFIB Exon 11	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC11	65	Female	Cribriform	t(8;9)	MYBL1-NFIB	Negative	MYBL1 Exon 8-NFIB Exon 11, MYBL1 Exon 8-NFIB Exon 12	NA	FISH, Microarray, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC12	50	Male	Cribriform	t(8;9)	MYBL1-NFIB	Negative	MYBL1 Exon 14-NFIB Exon 11	CDC7-KIAA1107, TTC28-ME1, XRN1-TFDP2	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC13	39	Female	Solid	t(8;9)	MYBL1-NFIB	Negative	MYBL1 Exon 14-NFIB Exon 11, MYBL1 Exon 15-NFIB Exon 11	NA	FISH, Microarray, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC94	61	Female	Solid	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC95	38	Male	Solid	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC96	73	Female	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC97	66	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC90	86	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC91	68	Female	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC92	42	Male	Solid	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC93	58	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC98	27	Male	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC99	67	Female	Cribriform	Negative	Negative	NA	NA	NA	NA
+ACYC-MDA_AC69	45	Female	Cribriform/Tubular	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 8-NFIB Exon 11	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC68	61	Male	Cribriform	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 8-NFIB Exon 11, MYBL1 Exon 8-NFIB Exon 12	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC61	69	Female	Cribriform	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC60	42	Male	Cribriform/Solid	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC63	43	Female	Solid	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC62	38	Female	Cribriform	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC65	66	Female	Cribriform	t(6;9)	Negative	NA	Negative	NA	NA
+ACYC-MDA_AC64	65	Male	Solid	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC67	68	Female	Cribriform/Tubular	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 8-NFIB Exon 12	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC66	62	Male	Solid	t(6;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC78	47	Male	Cribriform/Solid/Tubular	Negative	MYBL1 Truncation	NA	MYBL1 Truncation (MYBL1 Exon 9-RAD51B Intron 5)	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC79	42	Female	Cribriform	Negative	MYBL1 Truncation	NA	MYBL1 Truncation (MYBL1 Exon 10 Break)	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC72	69	Female	Cribriform	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 8-NFIB Exon 12	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC73	42	Female	Cribriform	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 14-NFIB Exon 11, MYBL1 Exon 15-NFIB Exon 11	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC70	51	Male	Cribriform/Tubular	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 8-NFIB Exon 11, MYBL1 Exon 8-NFIB Exon 12	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC71	66	Male	Cribriform	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 9-NFIB Exon 11	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC76	59	Male	Solid	t(8;9)	Negative	NA	NA	NA	NA
+ACYC-MDA_AC77	59	Female	Solid	Negative	MYBL1 Truncation	NA	MYBL1 Truncation (MYBL1 Exon 9-MYBL1 Intron 9)	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC74	72	Male	Cribriform	t(8;9)	MYBL1-NFIB	NA	MYBL1 Exon 8-NFIB Exon 11, MYBL1 Exon 8-NFIB Exon 12	NA	FISH, RT-PCR, Sanger, WGS, qPCR
+ACYC-MDA_AC75	23	Male	Tubular	t(8;9)	Negative	NA	NA	NA	NA
